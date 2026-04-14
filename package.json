@@ -1,5 +1,19 @@
+
 {
-  "name": "dashbord",
+  "name": "dashbord",{
+  "name": "React-dashboard",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "homepage": "https://Vishwakarmasuraj333.github.io/React-Dashboard",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
   "private": true,
   "version": "0.0.0",
   "type": "module",
